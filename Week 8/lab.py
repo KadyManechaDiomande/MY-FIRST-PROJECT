@@ -20,3 +20,33 @@ def descending_porder(num1, num2 = 15, num3 = 3):
         b,c = c,b
     return[a,b, c]   
    
+
+
+#15
+def is_negative(num):
+    if num < 0:
+        return True
+    else:
+        return False
+    
+    #shorter way
+    #def is_negative(num):
+         #return num<0
+
+def is_odd(num)
+    if num % 2 == 1:
+         return True
+    else:
+        return False
+    
+#shorter way
+    #def is_odd(num):
+         #return num % 2 ==1
+
+def report_negative_odds(lyst):
+    output =[]
+
+    for num in lyst:
+        if is_negative(num) and is_odd(num):
+            output.append(num)
+    return output
