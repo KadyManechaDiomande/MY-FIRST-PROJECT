@@ -1,0 +1,4 @@
+Name,age,occupation,hobby
+Matt,39,Teache,Running
+Dexter,8,Student,Readiing
+Ashley,38,Important Teacher,Learning

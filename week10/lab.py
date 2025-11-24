@@ -73,7 +73,7 @@ print(book2)
 
 #6
 class Statement:
-    def __init__(self)
+    def __init__(self):
         self.name ="Unknown"
         self.major = "Unknown"
         self.gpa = 0
